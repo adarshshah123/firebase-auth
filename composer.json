@@ -1,0 +1,38 @@
+{
+  "name": "adarsh/firebase",
+  "description": "firebase authentication",
+  "version": "0.1.0",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.2"
+  },
+  "authors": [
+    {
+      "name": "Adarsh",
+      "email": "adarshshah925@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Adarsh\\Firebase\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Firebase Authentication",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
